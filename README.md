@@ -63,7 +63,7 @@ Please note that RestTemplate will deprecate after spring version 5. <br>
 So, the new API calling (Http Client) component is introduced by Spring, and it's call WebClient. <br>
 You need to use that in future version of Spring Framework, and you can learn more about WebClient in google. <br>
 I will add calling APIs by using WebClient in this project later. <br>
-You can learn how to call many types of API endpoints in this project like below,
+You can learn how to call many types of API endpoints by using RestTemplate in this project like below,
 1. Calling APIs which need to add Request as APIs requirements
 2. Calling APIs which need to get (catch) Response data from APIs responses
 3. Calling APIs which need to add Request and catch Response data as API requirements (this is the main point and to learn that calling APIs, you need to learn above step 1 and 2 first)
