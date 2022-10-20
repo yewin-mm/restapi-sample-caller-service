@@ -1,0 +1,1973 @@
+{
+	"info": {
+		"_postman_id": "edd8fea4-46a6-495f-a2f7-4621df948b5f",
+		"name": "restapi-sample-caller-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9784437"
+	},
+	"item": [
+		{
+			"name": "call response apis",
+			"item": [
+				{
+					"name": "callResponseSingleStringDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callResponseSingleStringDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callResponseSingleStringDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callResponseSingleStringDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callResponseSingleStringDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callResponseSingleStringDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 06 Oct 2022 23:00:44 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call ResponseSingleStringDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": \"Hello!\"\n}"
+						}
+					]
+				},
+				{
+					"name": "callResponseSingleObjectDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callResponseSingleObjectDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callResponseSingleObjectDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callResponseSingleObjectDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callResponseSingleObjectDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callResponseSingleObjectDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 06 Oct 2022 23:03:46 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call ResponseSingleObjectDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": {\n        \"totalCount\": 10\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "callResponseObjectDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callResponseObjectDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callResponseObjectDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callResponseObjectDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callResponseObjectDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callResponseObjectDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 06 Oct 2022 23:04:14 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call ResponseObjectDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": {\n        \"id\": 1,\n        \"name\": \"Ye Win\",\n        \"address\": \"Yangon\",\n        \"phone\": \"+959123456789\",\n        \"className\": \"Room A\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "callResponseStringListDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callResponseStringListDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callResponseStringListDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callResponseStringListDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callResponseStringListDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callResponseStringListDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 06 Oct 2022 23:04:40 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call ResponseStringListDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": [\n        \"Ye Win\",\n        \"Mr. Ye Win\"\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "callResponseObjectListDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callResponseObjectListDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callResponseObjectListDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callResponseObjectListDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callResponseObjectListDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callResponseObjectListDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 06 Oct 2022 23:04:52 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call ResponseObjectListDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": [\n        {\n            \"id\": 1,\n            \"name\": \"Ye Win\",\n            \"address\": \"Yangon\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room A\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Mg Mg\",\n            \"address\": \"Mandalay\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room B\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Aung Aung\",\n            \"address\": \"NayPyiTaw\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room C\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "callResponseCustomObjectListDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callResponseCustomObjectListDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callResponseCustomObjectListDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callResponseCustomObjectListDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callResponseCustomObjectListDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callResponseCustomObjectListDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 11 Oct 2022 09:18:54 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call ResponseObjectListDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": [\n        {\n            \"studentName\": \"Ye Win\",\n            \"className\": \"Room A\"\n        },\n        {\n            \"studentName\": \"Maung Maung\",\n            \"className\": \"Room B\"\n        },\n        {\n            \"studentName\": \"Aung Aung\",\n            \"className\": \"Room C\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "callResponseNestedObjectDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callResponseNestedObjectDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callResponseNestedObjectDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callResponseNestedObjectDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callResponseNestedObjectDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callResponseNestedObjectDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 11 Oct 2022 09:26:57 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call ResponseNestedObjectDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": {\n        \"timestamp\": \"2022-10-11T09:26:54.729Z\",\n        \"status\": {\n            \"status\": \"SUCCESS\",\n            \"message\": \"No Error\"\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "callResponseNestedObjectAndNestedObjectListDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callResponseNestedObjectAndNestedObjectListDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callResponseNestedObjectAndNestedObjectListDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callResponseNestedObjectAndNestedObjectListDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callResponseNestedObjectAndNestedObjectListDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callResponseNestedObjectAndNestedObjectListDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 11 Oct 2022 09:48:50 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call ResponseNestedObjectAndNestedObjectListDemoNestedObjectDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": {\n        \"timestamp\": \"2022-10-11T09:48:50.709Z\",\n        \"status\": {\n            \"status\": \"SUCCESS\",\n            \"message\": \"No Error\"\n        },\n        \"dataList\": [\n            {\n                \"id\": 1,\n                \"name\": \"Ye Win\",\n                \"address\": \"Yangon\",\n                \"phone\": \"+959123456789\",\n                \"className\": \"Room A\"\n            },\n            {\n                \"id\": 2,\n                \"name\": \"Mg Mg\",\n                \"address\": \"Mandalay\",\n                \"phone\": \"+959123456789\",\n                \"className\": \"Room B\"\n            },\n            {\n                \"id\": 3,\n                \"name\": \"Aung Aung\",\n                \"address\": \"NayPyiTaw\",\n                \"phone\": \"+959123456789\",\n                \"className\": \"Room C\"\n            }\n        ]\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "call request apis",
+			"item": [
+				{
+					"name": "callRequestBodyObjectDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestBodyObjectDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestBodyObjectDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestBodyObjectDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestBodyObjectDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestBodyObjectDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 11 Oct 2022 11:08:13 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call callRequestBodyObjectDemo API\",\n    \"thirdPartyResponseStatusCode\": 201,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestBodyObjectListDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestBodyObjectListDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestBodyObjectListDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestBodyObjectListDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestBodyObjectListDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestBodyObjectListDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 11 Oct 2022 22:30:49 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestBodyObjectListDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestBodyStringListDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestBodyStringListDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestBodyStringListDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestBodyStringListDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestBodyStringListDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestBodyStringListDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 11 Oct 2022 22:38:00 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestBodyStringListDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestPathVariableIntegerDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestPathVariableIntegerDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestPathVariableIntegerDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestPathVariableIntegerDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestPathVariableIntegerDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestPathVariableIntegerDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Oct 2022 13:03:03 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestPathVariableIntegerDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestMultiPathVariablesDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestMultiPathVariablesDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestMultiPathVariablesDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestMultiPathVariablesDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestMultiPathVariablesDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestMultiPathVariablesDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Oct 2022 13:05:20 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestMultiPathVariablesDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestParamStringDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestParamStringDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestParamStringDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestParamStringDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestParamStringDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestParamStringDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Oct 2022 13:21:09 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestParamStringDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestMultiParamsDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestMultiParamsDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestMultiParamsDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestMultiParamsDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestMultiParamsDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestMultiParamsDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Oct 2022 13:26:15 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestMultiParamsDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestPathVariableAndParamsDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestPathVariableAndParamsDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestPathVariableAndParamsDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestPathVariableAndParamsDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestPathVariableAndParamsDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestPathVariableAndParamsDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Oct 2022 13:28:31 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestPathVariableAndParamsDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestFromHeaderDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestFromHeaderDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestFromHeaderDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestFromHeaderDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Oct 2022 13:28:49 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestFromHeaderDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestFromHeaderAndRequestParamDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndRequestParamDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestFromHeaderAndRequestParamDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestFromHeaderAndRequestParamDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndRequestParamDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestFromHeaderAndRequestParamDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Oct 2022 13:29:56 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestFromHeaderAndRequestParamDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestFromHeaderAndRequestBodyDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndRequestBodyDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestFromHeaderAndRequestBodyDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestFromHeaderAndRequestBodyDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndRequestBodyDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestFromHeaderAndRequestBodyDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Oct 2022 13:30:46 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestFromHeaderAndRequestBodyDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestFileUploadDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestFileUploadDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestFileUploadDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestFileUploadDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestFileUploadDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestFileUploadDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Oct 2022 13:31:39 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestFileUploadDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestFromHeaderAndBulkFileUploadAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndBulkFileUploadAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestFromHeaderAndBulkFileUploadAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestFromHeaderAndBulkFileUploadAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndBulkFileUploadAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestFromHeaderAndBulkFileUploadAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Oct 2022 13:32:36 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestFromHeaderAndBulkFileUpload API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "call request & response apis",
+			"item": [
+				{
+					"name": "callRequestPathVariableAndResponseObjectDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestPathVariableAndResponseObjectDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestPathVariableAndResponseObjectDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestPathVariableAndResponseObjectDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestPathVariableAndResponseObjectDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestPathVariableAndResponseObjectDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Oct 2022 12:06:35 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestPathVariableAndResponseObjectDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": {\n        \"id\": 1,\n        \"name\": \"Ye Win\",\n        \"address\": \"Yangon\",\n        \"phone\": \"+959123456789\",\n        \"className\": \"Room A\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestParamStringAndResponseObjectListDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestParamStringAndResponseObjectListDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestParamStringAndResponseObjectListDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestParamStringAndResponseObjectListDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestParamStringAndResponseObjectListDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestParamStringAndResponseObjectListDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Oct 2022 12:08:22 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestParamStringAndResponseObjectListDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": [\n        {\n            \"id\": 1,\n            \"name\": \"Ye Win\",\n            \"address\": \"Yangon\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room A\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Mg Mg\",\n            \"address\": \"Mandalay\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room B\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Aung Aung\",\n            \"address\": \"NayPyiTaw\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room C\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestFromHeaderAndRequestBodyAndResponseNestedObjectDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndRequestBodyAndResponseNestedObjectDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestFromHeaderAndRequestBodyAndResponseNestedObjectDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestFromHeaderAndRequestBodyAndResponseNestedObjectDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndRequestBodyAndResponseNestedObjectDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestFromHeaderAndRequestBodyAndResponseNestedObjectDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Oct 2022 12:09:15 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestFromHeaderAndRequestBodyAndResponseNestedObjectDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": {\n        \"timestamp\": \"2022-10-20T12:09:15.022Z\",\n        \"status\": {\n            \"status\": \"SUCCESS\",\n            \"message\": \"No Error\"\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Oct 2022 12:10:43 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": {\n        \"timestamp\": \"2022-10-20T12:10:43.920Z\",\n        \"status\": {\n            \"status\": \"SUCCESS\",\n            \"message\": \"No Error\"\n        },\n        \"dataList\": [\n            {\n                \"id\": 1,\n                \"name\": \"Ye Win\",\n                \"address\": \"Yangon\",\n                \"phone\": \"+959123456789\",\n                \"className\": \"Room A\"\n            },\n            {\n                \"id\": 2,\n                \"name\": \"Mg Mg\",\n                \"address\": \"Mandalay\",\n                \"phone\": \"+959123456789\",\n                \"className\": \"Room B\"\n            },\n            {\n                \"id\": 3,\n                \"name\": \"Aung Aung\",\n                \"address\": \"NayPyiTaw\",\n                \"phone\": \"+959123456789\",\n                \"className\": \"Room C\"\n            }\n        ]\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "callRequestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callRequestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callRequestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callRequestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callRequestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Oct 2022 12:14:37 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Response from third party\",\n    \"description\": \"call RequestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemo API\",\n    \"thirdPartyResponseStatusCode\": 200,\n    \"thirdPartyResponseData\": {\n        \"timestamp\": \"2022-10-20T12:14:37.403Z\",\n        \"status\": {\n            \"status\": \"SUCCESS\",\n            \"message\": \"No Error\"\n        },\n        \"dataList\": [\n            {\n                \"id\": 1,\n                \"accountName\": \"Ye Win\",\n                \"cardType\": \"VISA\",\n                \"serviceType\": \"Bill\",\n                \"phone\": \"+959123456789\",\n                \"address\": \"Yangon\",\n                \"transactionDate\": \"02/09/2022 10:03:23\",\n                \"balance\": \"1000\"\n            },\n            {\n                \"id\": 2,\n                \"accountName\": \"Ye Win\",\n                \"cardType\": \"VISA\",\n                \"serviceType\": \"Bill\",\n                \"phone\": \"+959123456789\",\n                \"address\": \"Yangon\",\n                \"transactionDate\": \"10/09/2022 15:30:09\",\n                \"balance\": \"5000\"\n            },\n            {\n                \"id\": 3,\n                \"accountName\": \"Ye Win\",\n                \"cardType\": \"VISA\",\n                \"serviceType\": \"Bill\",\n                \"phone\": \"+959123456789\",\n                \"address\": \"Yangon\",\n                \"transactionDate\": \"19/09/2022 13:20:56\",\n                \"balance\": \"2000\"\n            }\n        ]\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "call error response apis",
+			"item": [
+				{
+					"name": "callErrorBadRequestResponseDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callErrorBadRequestResponseDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callErrorBadRequestResponseDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callErrorBadRequestResponseDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callErrorBadRequestResponseDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callErrorBadRequestResponseDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Oct 2022 14:56:46 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Error Response from third party\",\n    \"description\": \"call ErrorBadRequestResponseDemo API\",\n    \"thirdPartyResponseStatusCode\": 400,\n    \"thirdPartyResponseData\": {\n        \"timestamp\": \"2022-10-20T14:56:46.132Z\",\n        \"status\": {\n            \"status\": \"FAIL\",\n            \"message\": \"Input is something wrong\"\n        },\n        \"dataList\": null\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "callErrorNotFoundResponseDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callErrorNotFoundResponseDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callErrorNotFoundResponseDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callErrorNotFoundResponseDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callErrorNotFoundResponseDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callErrorNotFoundResponseDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Oct 2022 14:56:38 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Error Response from third party\",\n    \"description\": \"call ErrorNotFoundResponseDemo API\",\n    \"thirdPartyResponseStatusCode\": 404,\n    \"thirdPartyResponseData\": {\n        \"timestamp\": \"2022-10-20T14:56:38.258Z\",\n        \"status\": {\n            \"status\": \"FAIL\",\n            \"message\": \"Input is something wrong\"\n        },\n        \"dataList\": null\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "callErrorInternalServerErrorResponseDemoAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/caller-service/caller/callErrorInternalServerErrorResponseDemoAPI",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"caller",
+								"callErrorInternalServerErrorResponseDemoAPI"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "callErrorInternalServerErrorResponseDemoAPI",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/caller-service/caller/callErrorInternalServerErrorResponseDemoAPI",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"caller-service",
+										"caller",
+										"callErrorInternalServerErrorResponseDemoAPI"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Oct 2022 14:27:54 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Error Response from third party\",\n    \"description\": \"call ErrorInternalServerErrorResponseDemo API\",\n    \"thirdPartyResponseStatusCode\": 500,\n    \"thirdPartyResponseData\": null\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
