@@ -57,7 +57,7 @@ This is the rest API caller project for calling many types of API endpoints. <br
 This is demo project and so, I don't add any other logic like communication with db, etc.
 So, you will see hard coded values in service class. <br>
 This service will call to receiver service [RestAPI Sample Receiver Service](https://github.com/yewin-mm/restapi-sample-receiver-service),
-so, you need to run that receiver service first in your machine.
+so, you need to run that receiver service first in your machine. <br>
 You can learn how to call that many types of API endpoints by using RestTemplate in this project. <br>
 Please note that RestTemplate will deprecate after spring version 5. <br>
 So, the new API calling (Http Client) component is introduced by Spring, and it's call WebClient. <br>
