@@ -1500,7 +1500,7 @@ public class CallerServiceImpl implements CallerService {
 
             // you can also use map instead of integer id for adding multiple path variables.
 
-            log.info("API Calling info, url: {}, request data: {}", appConfig.getRequestPathVariableIntegerDemoUrl(), actionType);
+            log.info("API Calling info, url: {}, request data: {}", appConfig.getRequestPathVariableAndResponseObjectDemoUrl(), actionType);
 
             // add url which you want to call, add Response Type from third party and add require parameters in restTemplate getForEntity method
             // path variable will auto add after we put parameters
