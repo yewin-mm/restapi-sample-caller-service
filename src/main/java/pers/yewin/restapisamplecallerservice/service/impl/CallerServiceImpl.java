@@ -1055,7 +1055,6 @@ public class CallerServiceImpl implements CallerService {
             log.info("API Calling info, url: {}, request data: {}", url, nameValue);
 
             // add URL which you want to call, add httpEntity which included headers and require data to call api and add Response Type from third party in restTemplate getForEntity method
-            // receiver application requested as PUT method, and so, we used restTemplate exchange method instead of getForEntity method
             // param values is already included in url variable -> final api will be -> localhost:8081/receiver-service/api/requestPathVariableAndParamsDemo/Ye Win?actionType=Bill
             ResponseEntity<String> response = restTemplate.getForEntity(url, String.class, nameValue);
 
@@ -1571,7 +1570,6 @@ public class CallerServiceImpl implements CallerService {
             log.info("API Calling info, url: {}, request data: {}", url, null);
 
             // add URL which you want to call, add httpEntity which included headers and require data to call api and add Response Type from third party in restTemplate getForEntity method
-            // receiver application requested as PUT method, so, I used restTemplate exchange method instead of getForEntity method
             // param values is already included in url variable
             // catch response object with pojo class as api response fields
             // response is object list, so, I did catch response object as list [] in response
@@ -1645,7 +1643,7 @@ public class CallerServiceImpl implements CallerService {
             // build request data and headers into HttpEntity.
             HttpEntity<Student> httpEntity = new HttpEntity<>(student, headers);
 
-            log.info("API Calling info, url: {}, request data: {}, headers:{}", appConfig.getRequestFromHeaderAndRequestBodyDemoUrl(), httpEntity.getBody(), httpEntity.getHeaders());
+            log.info("API Calling info, url: {}, request data: {}, headers:{}", appConfig.getRequestFromHeaderAndRequestBodyAndResponseNestedObjectDemoUrl(), httpEntity.getBody(), httpEntity.getHeaders());
 
             // postForEntity is used when you want to call Http POST method based api.
             // you can also use restTemplate exchange method in here, eg. exchange(url, HttpMethod.POST, httpEntity, String.class);
