@@ -100,7 +100,6 @@ Click below links.
    ```sh
    git clone https://github.com/yewin-mm/restapi-sample-caller-service.git
 
-
 <a name="prerequisites"></a>
 ### 🔑 Prerequisites
 Prerequisites can be found in here [Spring Boot Application Instruction](https://github.com/yewin-mm/spring-boot-app-instruction).
